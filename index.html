@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Puzzle Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Word Puzzle Game</h1>
+        <p>Guess the hidden word!</p>
+        <div id="word-display"></div><br>
+        <div id="hint"></div> <!-- Hint section --><br><br>
+        <input type="text" id="guess-input" maxlength="1" placeholder="Enter">
+        <p id="attempts-remaining">Attempts Available: 10</p>
+        <div id="feedback"></div>
+        <div id="attempts"></div>
+        <div id="game-over"></div>
+        <button id="try-again">Try Again</button>
+        <button id="play-again">Play Again</button><br><br><br>
+
+        <!-- Footer with developer's name -->
+        <div class="footer">
+            <p>Developed by <a href="https://github.com/delvin100" target="_blank">Delvin Varghese</a></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
